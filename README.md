@@ -1,7 +1,7 @@
 #微信公众号:搞鸡玩家
 #更新时间 2022/2/17
 
-hostname = http://txv04.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,apiios.xiangha.com, 39.97.157.167,www.babybooks.top,vip.0818km.cn,vni.kwaiying.com,passport.beva.com,gateway.ergedd.com,api.ggmza.cn,api.rr.tv,musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn, buy.itunes.apple.com
+hostname = txv04.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,apiios.xiangha.com, 39.97.157.167,www.babybooks.top,vip.0818km.cn,vni.kwaiying.com,passport.beva.com,gateway.ergedd.com,api.ggmza.cn,api.rr.tv,musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn, buy.itunes.apple.com
 
 # 糖心网页版解锁会员  网址：http://txv04.com/
 ^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/tangxin.js
