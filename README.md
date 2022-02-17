@@ -31,7 +31,7 @@ hostname = txv04.com,api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com,apiios.xiangha.co
 
 #瑶池lsp（解锁永久VIP）
 
-^http:\/\/api\.ggmza\.cn\/api\/user\/autoLogin url script-response-body https://gjds.vip/QX/pojie/yaochi1.js
+
 ^http:\/\/api\.ggmza\.cn\/api\/common\/enterNotice url script-response-body https://gjds.vip/QX/pojie/yaochi2.js
 
 #多多视频 永久VIP
